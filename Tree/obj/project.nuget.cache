@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b1pKjCXKK+3IVG1IqOfRWB2lmG9SbF+fRUVUTNvwpCdu2PZHi4Sszvd6ulV389PnJmp6+P/QDSqjA4vB2dNXIg==",
+  "success": true,
+  "projectFilePath": "C:\\WorkC#\\DZ\\Tree\\Tree\\Tree.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aa_poplavskii\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
