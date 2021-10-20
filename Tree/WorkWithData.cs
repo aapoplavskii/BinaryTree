@@ -13,7 +13,7 @@ namespace Tree
         {
             string _name = string.Empty;
             int _zp = 0;
-            bool result;
+            
 
             Node root = null;
 
@@ -30,20 +30,22 @@ namespace Tree
 
                 Console.WriteLine();
 
-                do
+                while (true)
                 {
                     Console.Write("Введите зарплату сотрудника: ");
                     var str = Console.ReadLine();
 
-                    result = int.TryParse(str, out _zp);
-
-                    if (!result)
-                    { 
+                    if (!int.TryParse(str, out _zp))
+                    {
                         Console.WriteLine($"Зарплату необходимо вводить цифрами! Повторите ввод зарплаты для {_name}");
                         Console.WriteLine();
                     }
+                    else
+                    {
+                        break;
+                    }
 
-                } while (!result);
+                } 
 
                 
                 
@@ -165,26 +167,26 @@ namespace Tree
         public void FindZP(Node currentNode)
         {
             int zp = 0;
-            bool result;
+            
 
-            do
+            while(true)
             {
             
                 Console.WriteLine();
                 Console.Write("Введите размер зарплаты для поиска в базе: ");
                 var strzp = Console.ReadLine();
-                
-            result = int.TryParse(strzp, out zp);
 
-            if (!result)
-            {
-                Console.WriteLine("Для поиска зарплаты значение необходимо вводить цифрами. Повторите ввода снова!");
-                Console.WriteLine();
+                if (!int.TryParse(strzp, out zp))
+                {
+                    Console.WriteLine("Для поиска зарплаты значение необходимо вводить цифрами. Повторите ввода снова!");
+                    Console.WriteLine();
+                }
+                else
+                {
+                    break;
+                }
+
             }
-
-            } while (!result);
-
-          
 
             var Findznach = Seach(currentNode, zp);
             if (Findznach != null)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkC#\\DZ\\Tree\\Tree\\Tree.csproj": {}
+    "C:\\WorkC#\\DZ\\BinarTree\\Tree\\Tree.csproj": {}
   },
   "projects": {
-    "C:\\WorkC#\\DZ\\Tree\\Tree\\Tree.csproj": {
+    "C:\\WorkC#\\DZ\\BinarTree\\Tree\\Tree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkC#\\DZ\\Tree\\Tree\\Tree.csproj",
+        "projectUniqueName": "C:\\WorkC#\\DZ\\BinarTree\\Tree\\Tree.csproj",
         "projectName": "Tree",
-        "projectPath": "C:\\WorkC#\\DZ\\Tree\\Tree\\Tree.csproj",
+        "projectPath": "C:\\WorkC#\\DZ\\BinarTree\\Tree\\Tree.csproj",
         "packagesPath": "C:\\Users\\aa_poplavskii\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkC#\\DZ\\Tree\\Tree\\obj\\",
+        "outputPath": "C:\\WorkC#\\DZ\\BinarTree\\Tree\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
